@@ -79,7 +79,7 @@ background:rgb(0,0,0,0.5);
       padding:.5rem 1rem;; 
       border-radius:5px; 
       transition:ease-in-out .4s; 
-      background-color:#28a745; 
+      /* background-color:#fff;  */
  }
  
  /* Header content */
