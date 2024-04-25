@@ -24,8 +24,8 @@ body{
       align-items: center;
       text-align: center;
       color:#fff; 
-      height:100px;
-     padding:0 60px; 
+      height:120px;
+     padding:0 70px; 
      /* background:rgba(0, 0, 0, 0.8) */
      background:#ccc;
      
@@ -47,16 +47,26 @@ background:rgb(0,0,0,0.5);
 }
 .header__moto{ 
       display:flex; 
+      flex-direction: column;
       justify-content: center;
       align-items: center;
       text-align:center;
-      gap:.5rem;
+      line-height:0.9; 
 }
+
 .header__title{ 
-      text-transform: uppercase;
+      /* text-transform: uppercase; */
       text-align:center;
       letter-spacing: 1px;
       font-weight:400;
+      text-transform: uppercase;
+}
+.header__title-p{ 
+      font-size:16px; 
+      margin-bottom:10px;
+      font-weight:100; 
+      text-transform: uppercase;
+
 }
  .header__menu { 
       display:flex; 
@@ -64,8 +74,10 @@ background:rgb(0,0,0,0.5);
       font-size:1.2rem;
  }
  .header__image { 
-      width:100px; 
-      height:100px; 
+      width: 70px; 
+      height:70px; 
+      margin-top:10px;
+      margin-bottom:0; 
  }
  .header__link { 
       padding:5px 15px; 
@@ -79,7 +91,6 @@ background:rgb(0,0,0,0.5);
       padding:.5rem 1rem;; 
       border-radius:5px; 
       transition:ease-in-out .4s; 
-      /* background-color:#fff;  */
  }
  
  /* Header content */
@@ -92,12 +103,12 @@ background:rgb(0,0,0,0.5);
       color:#fff; 
  }
  .content__title{ 
-      font-size:3rem; 
+      font-size:2.5rem; 
       letter-spacing:5px; 
       box-shadow: 2px 0 6px;
       padding:10px 10px; 
       text-transform:uppercase; 
-      font-weight:400;
+      font-weight:300;
  }
  .content__description{ 
       font-size:1.5rem; 
@@ -107,16 +118,15 @@ background:rgb(0,0,0,0.5);
  .content__description-hour{ 
       font-size:1rem; 
       box-shadow:5px 0 6px ;  
+      margin-bottom:20px;
  }
  .content-btn{ 
       font-family:inherit; 
-      /* box-shadow:5px 0 9px ;   */
       color:#fff; 
       font-size:1rem; 
        background:#28a745;
-      opacity:.9; 
-      opacity:.9; 
-      text-transform:uppercase;
+      opacity:.9;  
+      
  }
  
 /* Services */
@@ -143,12 +153,12 @@ background:rgb(0,0,0,0.5);
 }
 .service__list-item{ 
       margin:10px; 
-      font-size:1rem;
+      font-size:1.2rem;
       font-weight:400; 
       letter-spacing: -0.05em;
 }
 .service__description{ 
-      font-size:1.2rem;
+      font-size:1rem;
       
 }
 
