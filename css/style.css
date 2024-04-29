@@ -8,6 +8,7 @@ body {
       font-family: "Roboto", sans-serif;
       line-height: 1.5;
       background: #ccc;
+      overflow-x: auto;
 }
 
 /* Header */
@@ -228,6 +229,7 @@ body {
 }
 
 /* About page Doctrine*/
+
 .doc__title {
       text-align: center;
       margin-top: 5rem;
@@ -330,13 +332,17 @@ body {
 .sunday__school {
       background: #eee;
       margin: 5rem 0 2rem;
+      padding:20px;
+      
 }
 
 .sunday__school__heading {
       font-size: 2.25rem;
       text-align: center;
       margin-bottom: 20px;
-
+}
+.sunday__school-title{ 
+      margin:10px 0; 
 }
 
 .sunday__school__wrapper {
@@ -422,4 +428,88 @@ body {
       padding: 10px 20px;
       background: black;
       color: #fff;
+}
+
+@media(max-width: 500px){ 
+     
+      html{ 
+            overflow-x: hidden;
+      }
+      .header__container{ 
+            flex-direction: column;
+      }
+      /* Khawm Caan  */
+      .service__wrapper{ 
+            grid-template-columns: 1fr;
+      }
+      .service__title{ 
+            margin:0; 
+            text-align: center;
+            margin-bottom:20px;
+      }
+      .service__box-1{ 
+            padding:20px; 
+      }
+      /* Sunday School zirthtu pawl content */
+      .sunday__school__wrapper{ 
+            flex-direction: column;
+      }
+      .contact__wrapper{ 
+            flex-direction: column;
+      }
+      .content{ 
+            margin:30px; 
+      }
+      .content__title{ 
+            font-size:25px;
+      }
+      .content__description{ 
+            margin:2rem 0;
+      }
+      .contact__title{ 
+            text-align:center;
+      }
+      .form__wrapper{ 
+            text-align:center; 
+      }
+      .contact__social{ 
+            text-align:center; 
+            }      
+      .contact__social .fab{ 
+      margin:20px 0; 
+      text-align:center; 
+      align-items:center;
+      }
+      /* Pastor About Page */
+      .about__pastor-content{ 
+            flex-direction:column; 
+      }
+      /* Church Dotrine content */
+      .doc{ 
+            overflow-x: hidden;
+      }
+      .doc__title{ 
+            margin:30px 0; 
+            text-align: center;
+            /* display:none;  */
+            width:none; 
+            
+      }
+      .doc__box{ 
+            margin:0; 
+            padding:0; 
+      }
+      .doc__wrapper{ 
+            flex-direction:column ;
+            letter-spacing: none;
+            max-width:35ch; 
+            text-align:justify;
+      }
+      .doc__image{ 
+            height:200px; 
+            width:300px; 
+      }
+      .doc__description-end{ 
+            margin:20px 0; 
+      }
 }
