@@ -1,0 +1,22 @@
+/* Header content */
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10rem;
+  align-items: center;
+  height: 100%;
+  color: #fff;
+}
+
+.content__title {
+  font-size: 35px;
+  letter-spacing: 5px;
+  padding: 10px 10px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.content__title-glory {
+  font-weight: 300;
+  padding-top: 50px;
+  margin-bottom: 30px;
+}

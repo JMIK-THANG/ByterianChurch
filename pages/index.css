@@ -1,0 +1,16 @@
+@import url(../vendor/normalize.css);
+@import url(../blocks/header.css);
+@import url(../blocks/header__content.css);
+@import url(../blocks/nav.css);
+@import url(../blocks/service.css);
+@import url(../blocks/sunday.css);
+@import url(../blocks/department.css);
+@import url(../blocks/contact.css);
+@import url(../blocks/doctrine.css);
+@import url(../blocks/about.css);
+@import url(../blocks/footer.css);
+@import url(../blocks/page.css);
+@import url(../blocks/home-gallery.css);
+@import url(../blocks/donation.css);
+@import url(../blocks/social.css);
+@import url(../pages/utilities.css);
