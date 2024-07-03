@@ -1,4 +1,49 @@
 .card {
   display: flex;
-  background: red;
+  justify-content: space-between;
+  max-width:1100px; 
+  margin:0 auto; 
+  color:#fff; 
+}
+.card__title{ 
+      text-transform: uppercase;
+      margin:0 0 20px; 
+}
+
+.card__list_item{ 
+      padding-bottom:10px; 
+}
+.card__list_item:last-child{ 
+      padding:0; 
+}
+.card__church_time{ 
+      display:flex; 
+      flex-direction: column;
+      justify-content: center;
+      align-items:center;
+      background-color: #5092B5; 
+      padding:51px; 
+}
+.card__vision_mission{ 
+      background-color: #0f4d6b;
+      max-width:600px; 
+      width:100%; 
+      padding:51px; 
+}
+.card__vision_title{ 
+      margin:0 0 18px; 
+}
+.card__mission_title{ 
+      margin:0 0 18px; 
+}
+.card__vision_description{ 
+      margin:0; 
+      padding-bottom:20px; 
+      font-size:20px; 
+      font-weight: 400;
+}
+.card__mission_description{ 
+      margin:0; 
+      font-size:20px; 
+      font-weight:400; 
 }

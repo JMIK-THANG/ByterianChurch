@@ -6,20 +6,18 @@
   display: flex;
   list-style-type: none;
   gap: 20px;
-
 }
 .nav__link {
   color: #fff;
   text-decoration: none;
   font-size: 20px;
   letter-spacing: 2px;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
-.nav__link:hover{ 
-      background:#5092B3; 
-      padding:10px; 
-      border-radius: 10px;
-      cursor:pointer; 
+.nav__link:hover {
+  background: #5092b2;
+  padding: 10px;
+  border-radius: 10px;
 }
 .nav__logo {
   width: 120px;
