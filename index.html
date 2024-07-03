@@ -20,199 +20,57 @@
     <link rel="stylesheet" href="pages/index.css" />
     <title>Presbyterian Church Indiana</title>
   </head>
-
   <body class="page">
-      <div class="page__content">
-    <header class="header page__section">
-      <nav class="header__container">
-        <div class="header__moto">
-          <img
-            class="header__image"
-            src="./img/EPC-Logo.png"
-            alt="church logo"
-          />
+    <div class="box"></div>
+    <div class="page__content">
+      <div class="header">
+        <nav class="nav">
+          <img src="./img/EPC-Logo.png" alt="church logo" class="nav__logo" />
+          <ul class="nav__links">
+            <li><a href="index.html" class="nav__link">Home</a></li>
+            <li><a href="ministries.html" class="nav__link">Ministries</a></li>
+            <li><a href="about.html" class="nav__link">About</a></li>
+            <li><a href="contact.html" class="nav__link">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header__content_wrapper">
+          <div class="header__content_overlay">
+            <div class="header__content">
+              <h1 class="header__title">
+                <span>Emmanuel</span>
+                <span>Presbyterian</span>
+                <span>Church</span>
+              </h1>
+              <p class="header__description">Do it All For The Glory Of God.</p>
+            </div>
+          </div>
         </div>
-
-        <ul class="header__menu">
-          <li class="header__link active">
-            <a href="index.html">Home</a>
-          </li>
-          <li class="header__link">
-            <a href="about.html">About</a>
-          </li>
-          <li class="header__link">
-            <a href="ministry.html">ministry</a>
-          </li>
-          <li class="header__link">
-            <a href="gallery.html">Gallery</a>
-          </li>
-          <li class="header__link">
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
-      <div class="content">
-        <h2 class="content__title">Emmanuel Presbyterian Church</h2>
-        <h1 class="content__title-glory">Do it all for the glory of God</h1>
-        <p class="content__bible-verse">1Cor 10:31</p>
       </div>
-    </header>
-    <main>
-      <section class="service page__section">
-        <div class="service__wrapper">
-          <div class="service__box service__box-1">
-            <h2 class="service__title">Khawm caan</h2>
-
-            <ul class="service__lists">
-              <li class="service__list-item">
-                <p>Sunday Service - 12:00 PM</p>
-              </li>
-              <li class="service__list-item">
-                <p>Sunday School Service - 10:00 AM</p>
-              </li>
-              <li class="service__list-item">
-                <p>Youth Service - 7:00 PM</p>
-              </li>
-              <li class="service__description">
-                <p>(Second week of each month)</p>
-              </li>
-              <li class="service__list-item">
-                <p>Women Service - 7:00 PM</p>
-              </li>
-              <li class="service__description">
-                <p>(Last week of each month)</p>
-              </li>
+      <main>
+        <section class="card">
+          <div class="card__church_time">
+            <h2 class="card__title">Khawm Caan</h2>
+            <ul class="card__lists">
+              <li class="card__list_item">Sunday Service - 12:00 PM</li>
+              <li class="card__list_item">Sunday School Service - 10:00 AM</li>
+              <li class="card__list_item">Youth Service - 7:00 PM</li>
+              <li class="card__list_item">(Second week of each month)</li>
+              <li class="card__list_item">Women Service - 7:00 PM</li>
+              <li class="card__list_item">(Last week of each month)</li>
             </ul>
           </div>
-          <div class="service__box">
-            <div class="column">
-              <h2>Mission</h2>
-              <p class="column__description">
+          <div class="card__vision_mission">
+            <div class="card__vision">
+              <h2 class="card__vision_title">Mission</h2>
+              <p class="card__vision_description">
                 To do all things for the glory of God by serving others with
                 love, integrity, and excellence, guided by the principles of
                 compassion and humility, as inspired by 1 Corinthians 10:31.
               </p>
             </div>
-            <div class="column column__vision">
-              <h2>Vision</h2>
-              <p class="column__description">
-                Our vision is to embody teachings of the Bible by conducting our
-                business with honesty, respect, and a dedication to uplifting
-                and supporting our community, striving to make a positive impact
-                and bringing glory to God in all that do.
-              </p>
-            </div>
           </div>
-        </div>
-      </section>
-      <section class="home__gallery">
-        <div class="cards">
-          <div class="card card__one">
-            <img
-              class="card__image"
-              src="./img/sport-run.jpg"
-              alt="khawm lai zuk"
-            />
-          </div>
-          <div class="card card__two">
-            <img
-              class="card__image card__two"
-              src="./img/church-opening.jpg"
-              alt="khawm lai zuk"
-            />
-          </div>
-          <div class="card card__three">
-            <img class="card__image" src="./img/nubu.jpg" alt="khawm lai zuk" />
-          </div>
-          <div class="card card__four">
-            <img
-              class="card__image"
-              src="./img/heart-group.jpg"
-              alt="khawm lai zuk"
-            />
-          </div>
-          <div class="card card__five">
-            <img
-              class="card__image"
-              src="./img/group.jpg"
-              alt="khawm lai zuk"
-            />
-          </div>
-
-          <div class="card card__seven">
-            <img
-              class="card__image"
-              src="./img/church-opening.jpg"
-              alt="khawm lai zuk"
-            />
-          </div>
-        </div>
-      </section>
-      <section class="donation page__section">
-        <div class="donation__wrapper">
-          <h2 class="donation__title center">Make A Different Today</h2>
-          <p class="donation__description">
-            Support missionaries on the field by giving today. Every donation
-            goes directly to those in the field.
-          </p>
-          <a class="button__payment" href="#">
-            <img class="button__image" src="./img/donate.gif" alt="" />
-          </a>
-        </div>
-      </section>
-      <section class="contact" id="contact" page__section>
-        <div class="contact__left">
-          <h2 class="contact__left-title">Emmanuel Church</h2>
-          <p class="contact__left-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
-            molestiae. Maxime adipisci sed cum temporibus cupiditate veritatis
-            quae omnis ipsum.
-          </p>
-        </div>
-        <form class="contact__right form">
-          <h2 class="form__title">Get in Touch</h2>
-
-          <fieldset class="form__fieldset">
-            <div class="form__left">
-              <label for="name" class="form__label">Name*</label>
-              <input
-                type="text"
-                class="form__input"
-                id="name"
-                placeholder="Name"
-                required
-              />
-              <label for="number" class="form__label">Phone Number*</label>
-              <input
-                type="text"
-                id="number"
-                class="form__input"
-                placeholder="Phone number"
-                required
-              />
-
-              <label for="email" class="form__label">Email*</label>
-              <input
-                type="text"
-                class="form__input"
-                id="email"
-                placeholder="email@gmail.com"
-              />
-            </div>
-            <div class="form__right">
-              <label for="text" class="form__label">Message</label>
-              <textarea name="text" id="text" class="text__input"></textarea
-              >
-            </div>
-          </fieldset>
-          <button type="submit" class="form__button">Submit</button>
-        </form>
-      </section>
-    </main>
-    <footer class="footer">
-      <div class="footer__contact"></div>
-      <p>&copy; Emmanuel Presbyterian Church 2004</p>
-    </footer>
-</div>
+        </section>
+      </main>
+    </div>
   </body>
 </html>
