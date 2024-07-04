@@ -41,7 +41,7 @@
       padding-bottom:50px; 
       font-size:20px; 
       font-weight: 400;
-      width:600px; 
+      /* width:600px;  */
 }
 .card__mission_description{ 
       margin:0; 
@@ -54,14 +54,21 @@
 @media screen and (max-width: 600px) { 
       .card{ 
             grid-template-columns: 1fr;
-           
+            padding:10px; 
       }
       .card__vision_mission{ 
             display:flex; 
             flex-direction: column;
             justify-content: center;
             align-items: center;
+           
       }
-      
-      
+      .card__vision_title{ 
+            text-align:center; 
+            padding-bottom:10px; 
+      }
+      .card__mission_title{ 
+            text-align:center; 
+            padding-bottom:20px; 
+      }
 }
