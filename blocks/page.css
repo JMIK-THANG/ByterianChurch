@@ -1,3 +1,8 @@
+*{ 
+  padding:0; 
+  margin:0 ; 
+  box-sizing: border-box;
+}
 .page {
   font-family: "Roboto", Arial, sans-serif;
   min-width: 1100px;
@@ -5,4 +10,16 @@
   font-size: 16px;
   line-height: 20px;
   margin: 0 auto;
+  overflow-x: none;
+}
+a{ 
+  text-decoration:none; 
+  color:#000; 
+}
+@media  screen and (max-width:1100px){
+  
+  .page{ 
+    margin:0 20px; 
+    max-width:calc(100% - 40px); 
+  }
 }

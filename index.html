@@ -28,9 +28,9 @@
           <img src="./img/EPC-Logo.png" alt="church logo" class="nav__logo" />
           <ul class="nav__links">
             <li><a href="index.html" class="nav__link">Home</a></li>
-            <li><a href="ministries.html" class="nav__link">Ministries</a></li>
             <li><a href="about.html" class="nav__link">About</a></li>
-            <li><a href="contact.html" class="nav__link">Contact</a></li>
+            <li><a href="ministries.html" class="nav__link">Ministries</a></li>
+            <li><a href="#contact.html" class="nav__link">Contact</a></li>
           </ul>
         </nav>
         <div class="header__content_wrapper">
@@ -79,7 +79,133 @@
             </div>
           </div>
         </section>
+        <section class="donation">
+          <div class="donation__content">
+            <h2 class="donation__content_title">Make A Different Today!</h2>
+            <p class="donation__content_description">
+              Spport missionaries on the field by giving today.Every donation
+              goes directly to those in the field.
+            </p>
+            <button type="button" class="donation__button">
+              <a href="#">
+                <img src="./img/donate.gif" alt="donation logo" />
+              </a>
+            </button>
+          </div>
+          <div class="donation__group">
+            <img
+              class="donation__group_image"
+              src="./img/heart-group.jpg"
+              alt="donation group zuk"
+            />
+          </div>
+        </section>
+        <section class="home__gallery">
+          <ul class="home__gallery_wrapper">
+            <div class="image__one">
+              <img
+                src="./img/nubuheart.jpg"
+                class="gallery__image"
+                alt="nubu"
+              />
+            </div>
+
+            <img
+              src="./img/sport.jpg"
+              alt="nubu leklai"
+              class="image__two gallery__image"
+            />
+
+            <img
+              src="./img/group.jpg"
+              alt="khawhran mino pawl"
+              class="image__three gallery__image"
+            />
+
+            <img
+              src="./img/church-opening.jpg"
+              alt="kawhhran on puai"
+              class="image__four gallery__image"
+            />
+
+            <img
+              src="./img/nuho.jpg"
+              alt="nuho pawl"
+              class="image__five gallery__image"
+            />
+
+            <img
+              src="./img/sport.jpg"
+              alt=""
+              class="image__six gallery__image"
+            />
+          </ul>
+        </section>
       </main>
+      <div class="contact" id="contact">
+        <div class="contact__info">
+          <img class="contact__image" src="./img/EPC-Logo.png" alt="EPC logo" />
+          <h2 class="contact__title">Contact Us</h2>
+          <p class="contact__number">
+            <a href="#">Phone: 317 810 3123</a>
+          </p>
+          <p class="contact__email">
+            <a href="#"> Email:info@emmanuel-presbyterianchurch.org </a>
+          </p>
+          <p class="contact__address">
+            Address: 1532 Standish Ave, Inidanapolis, IN, United States
+          </p>
+
+          <div class="social__icons">
+            <a href="#">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a href="#"> <i class="fab fa-instagram"></i> </a>
+            <a href="#"> <i class="fab fa-youtube"></i> </a>
+          </div>
+        </div>
+        <div class="contact__form">
+          <form class="form">
+            <fieldset class="form__fieldset">
+              <label for="name" class="form__label">Name*</label>
+              <input
+                type="text"
+                class="form__input"
+                id="name"
+                placeholder="Name"
+                required
+              />
+              <label for="email" class="form__label">Email *</label>
+              <input
+                type="text"
+                id="email"
+                class="form__input"
+                placeholder="Email"
+                required
+              />
+            </fieldset>
+            <textarea name="message" class="message" placeholder="Message">
+            </textarea>
+            <button type="submit" class="form__button">Submit</button>
+          </form>
+        </div>
+      </div>
+      <div class="goole__map">
+        <p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3069.1767585518774!2d-86.13451262402363!3d39.713210171561485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886b5affb2b2f359%3A0xaf14c19bedb839a5!2s1532%20Standish%20Ave%2C%20Indianapolis%2C%20IN%2046227!5e0!3m2!1sen!2sus!4v1720053118586!5m2!1sen!2sus"
+            width="100%"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </p>
+      </div>
+      <div class="copy__right">
+        <p>Copyrigth &copy; 2023 EPC. All Rights Resesrved.</p>
+      </div>
     </div>
   </body>
 </html>

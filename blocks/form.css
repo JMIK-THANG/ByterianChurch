@@ -1,0 +1,39 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  max-width: 500px;
+  box-sizing: border-box;
+}
+.form__fieldset {
+  border: none;
+}
+.form__label {
+  display: block;
+  padding-bottom: 8px;
+}
+.form__input {
+  width: 500px;
+  margin-bottom: 24px;
+  padding: 10px;
+  outline:none; 
+}
+.message {
+  height: 100px;
+  width:500px;
+  margin: 0 0 20px;
+  padding:10px; 
+  outline:none; 
+}
+.message::placeholder{ 
+      color:#000; 
+}
+.form__button {
+  width: 100%;
+  padding: 10px;
+  background: #000;
+  color: #fff;
+}

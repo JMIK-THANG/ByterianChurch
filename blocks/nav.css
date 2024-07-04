@@ -12,15 +12,9 @@
   text-decoration: none;
   font-size: 20px;
   letter-spacing: 2px;
-  transition: all 0.3s ease-in-out;
-}
-.nav__link:hover {
-  background: #5092b2;
-  padding: 10px;
-  border-radius: 10px;
 }
 .nav__logo {
   width: 120px;
   height: 120px;
-  margin-top: -90px;
+  margin-top: -95px;
 }
