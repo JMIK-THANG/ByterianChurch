@@ -35,6 +35,6 @@
 }
 @media screen and (max-width: 500px){ 
       .pastor__description{ 
-            max-width:373px; 
+            width:100%;
       }
 }
