@@ -1,0 +1,40 @@
+.pastor{ 
+    background:#fff;  
+    border-bottom:1px solid #000; 
+}
+.pastor__container{ 
+      display:flex; 
+      flex-direction:column; 
+      justify-content: center;
+      align-items: center;
+      /* background:#fff;  */
+      max-width:1100px; 
+      margin:0 auto; 
+      padding:30px; 
+}
+.pastor__content{ 
+      z-index:999; 
+}
+.pastor__title{ 
+      text-align:center; 
+      padding:40px 0 60px; 
+      font-weight:500; 
+}
+.pastor__description{ 
+      max-width:1100px; 
+      line-height:27px; 
+      padding-bottom:120px; 
+}
+.pastor__image{ 
+      width:200px; 
+      height:200px; 
+      border-radius:50%; 
+      object-fit: cover;
+      margin-top:-100px; 
+
+}
+@media screen and (max-width: 500px){ 
+      .pastor__description{ 
+            max-width:373px; 
+      }
+}

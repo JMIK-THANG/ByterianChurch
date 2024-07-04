@@ -6,12 +6,20 @@
   display: flex;
   list-style-type: none;
   gap: 20px;
+  z-index:999; 
+
 }
 .nav__link {
   color: #fff;
   text-decoration: none;
   font-size: 20px;
   letter-spacing: 2px;
+  transition:all .3s ease-in-out; 
+}
+.nav__link:hover{ 
+  background: #5092B5; 
+  padding:10px; 
+  border-radius:5px; 
 }
 .nav__logo {
   width: 120px;
@@ -21,6 +29,6 @@
 
 @media screen and (max-width:500px){ 
   .nav{ 
-    display:none; 
+    /* display:none;  */
   }
 }

@@ -4,6 +4,7 @@
       padding:100px 250px; 
       background-color:#0f4d6b;
       color:#fff; 
+      justify-content: center;
 }
 
 .contact__image{ 
@@ -65,8 +66,10 @@
 }
 @media screen and ( max-width:600px){ 
       .contact { 
-            grid-template-columns: 1fr;
+         grid-template-columns: 1fr;
+         padding:100px; 
       }
+      
       .social__icons{ 
             margin-bottom:40px; 
       }

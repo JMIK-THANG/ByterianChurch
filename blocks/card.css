@@ -41,7 +41,7 @@
       padding-bottom:50px; 
       font-size:20px; 
       font-weight: 400;
-      /* width:600px;  */
+      width:600px; 
 }
 .card__mission_description{ 
       margin:0; 
@@ -71,4 +71,5 @@
             text-align:center; 
             padding-bottom:20px; 
       }
+    
 }

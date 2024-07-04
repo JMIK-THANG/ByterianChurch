@@ -1,8 +1,6 @@
 .home__gallery_wrapper{ 
       display:grid; 
       grid-template-columns: repeat(auto-fill,minmax(200px,200px));
-      /* grid-template-rows:100px; */
-      /* justify-content: center; */
       align-items: center;
       max-width:100%; 
       height:100%; 

@@ -1,0 +1,48 @@
+.doctrine{ 
+      display:flex; 
+      flex-direction:column; 
+      justify-content: center;
+      align-items: center;
+      background:#fff; 
+      padding-bottom:40px; 
+
+}
+.doctrine__header{ 
+      display:flex; 
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+.doctrine__image{ 
+      background:#ccc; 
+      padding:20px; 
+      margin-top:-60px; 
+      margin-bottom:40px;
+      border-radius:50%; 
+      box-shadow: 2px 2px 2px 2px #eee;
+}
+.doctrine__title{ 
+      text-transform: uppercase;
+      line-height:17px; 
+      letter-spacing: 1px;
+      margin-bottom:60px;
+}
+.doctrine__apostle{ 
+      margin-bottom:20px; 
+}
+.doctrine__apostle_title{ 
+      padding-bottom:30px; 
+
+}
+.doctrine__apostle_description{ 
+      margin-bottom:30px; 
+}
+.doctrine__apostle_description-item{ 
+      padding-bottom:10px; 
+}
+.doctrine__nicea_title{ 
+      padding-bottom:30px; 
+}
+.doctrine__nicea_description-item{ 
+      padding-bottom:10px; 
+}

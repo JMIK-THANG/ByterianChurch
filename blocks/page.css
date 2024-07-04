@@ -11,6 +11,7 @@
   line-height: 20px;
   margin: 0 auto;
   overflow-x: none;
+  background:#ccc; 
 }
 a{ 
   text-decoration:none; 
