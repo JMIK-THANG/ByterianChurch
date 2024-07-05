@@ -29,6 +29,7 @@
 }
 .doctrine__apostle{ 
       margin-bottom:20px; 
+      padding:0; 
 }
 .doctrine__apostle_title{ 
       padding-bottom:30px; 
@@ -36,6 +37,7 @@
 }
 .doctrine__apostle_description{ 
       margin-bottom:30px; 
+      padding:0; 
 }
 .doctrine__apostle_description-item{ 
       padding-bottom:10px; 
@@ -45,4 +47,5 @@
 }
 .doctrine__nicea_description-item{ 
       padding-bottom:10px; 
+      padding:0; 
 }

@@ -59,3 +59,10 @@ span {
   font-size: 20px;
   color: #000;
 }
+@media screen and (max-width:500px){ 
+  .header{ 
+    max-width:320px; 
+    margin:0; 
+    white-space: nowrap;
+  }
+}

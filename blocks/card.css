@@ -1,75 +1,82 @@
 .card {
-  display:grid; 
-  grid-template-columns: repeat(2,1fr);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   /* max-width:1100px;  */
-  margin:0 auto; 
-  color:#fff; 
+  margin: 0 auto;
+  color: #fff;
   overflow: hidden;
 }
-.card__title{ 
-      text-transform: uppercase;
-      margin:0 0 20px; 
+.card__vision{ 
+      border-bottom:1px solid white; 
+}
+.card__title {
+  text-transform: uppercase;
+  margin: 0 0 20px;
 }
 
-.card__list_item{ 
-      padding-bottom:10px; 
+.card__list_item {
+  padding-bottom: 10px;
 }
-.card__list_item:last-child{ 
-      padding:0; 
+.card__list_item:last-child {
+  padding: 0;
 }
-.card__church_time{ 
-      display:flex; 
-      flex-direction: column;
-      justify-content: center;
-      align-items:center;
-      background-color: #5092B5; 
-      padding:51px; 
+.card__church_time {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #5092b5;
+  padding: 51px;
 }
-.card__vision_mission{ 
-      background-color: #0f4d6b;
-      width:100%; 
-      padding:51px; 
+.card__vision_mission {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #0f4d6b;
+  width: 100%;
+  padding: 51px;
 }
-.card__vision_title{ 
-      margin:0 0 18px; 
+.card__vision_title {
+  margin: 0 0 18px;
 }
-.card__mission_title{ 
-      margin:0 0 18px; 
+.card__mission_title {
+  padding: 20px 0 18px; 
 }
-.card__vision_description{ 
-      margin:0; 
-      padding-bottom:50px; 
-      font-size:20px; 
-      font-weight: 400;
-      width:600px; 
+.card__vision_description {
+  margin: 0;
+  padding-bottom: 50px;
+  font-size: 20px;
+  font-weight: 400;
+  width: 600px;
 }
-.card__mission_description{ 
-      margin:0; 
-      font-size:20px; 
-      font-weight:400; 
-      width:600px; 
+.card__mission_description {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+  width: 600px;
+}
 
-}
-
-@media screen and (max-width: 600px) { 
-      .card{ 
-            grid-template-columns: 1fr;
-            padding:10px; 
-      }
-      .card__vision_mission{ 
-            display:flex; 
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-           
-      }
-      .card__vision_title{ 
-            text-align:center; 
-            padding-bottom:10px; 
-      }
-      .card__mission_title{ 
-            text-align:center; 
-            padding-bottom:20px; 
-      }
-    
+@media screen and (max-width: 600px) {
+  .card {
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+  .card__vision_title {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .card__mission_title {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .card__mission_description {
+    width: 100%;
+  }
+  .card__vision_description {
+    width: 100%;
+  }
+  .card__vision_mission {
+  }
 }

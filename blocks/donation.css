@@ -29,23 +29,23 @@
 @media screen and (max-width: 600px) {
   .donation {
     /* grid-template-columns: 1fr; */
-    display:flex; 
+    display: flex;
     flex-direction: column;
     justify-content: center;
     /* align-items: center; */
-    padding:10px; 
-    width:100%; 
+    padding: 10px;
+    width: 100%;
   }
   .donation__content {
     margin-bottom: 50px;
-    border:1px solid rgba(0, 0, 0, 0.6); 
-    padding:70px; 
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    padding: 70px;
   }
   .donation__group {
     text-align: center;
   }
-  .donation__group_image{ 
-    width:100%; 
-    object-fit:cover; 
+  .donation__group_image {
+    width: 100%;
+    object-fit: cover;
   }
 }
