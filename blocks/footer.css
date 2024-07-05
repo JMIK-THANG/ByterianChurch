@@ -68,7 +68,8 @@
 @media screen and ( max-width:600px){ 
       .contact { 
          grid-template-columns: 1fr;
-         padding-bottom:20px; 
+         padding:0px; 
+         width:100%; 
       }
       .contact__info{ 
             align-items: center;
