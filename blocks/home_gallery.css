@@ -28,7 +28,7 @@
 }
 @media screen and (max-width: 500px) {
   .home__gallery_wrapper {
-    grid-template-columns: repeat(auto-fit, 150px);
+    grid-template-columns: repeat(auto-fit, 120px);
   }
   .image__six {
     grid-row: span 2;
