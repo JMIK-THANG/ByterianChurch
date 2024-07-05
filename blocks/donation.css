@@ -40,6 +40,10 @@
     margin-bottom: 50px;
     padding: 70px;
   }
+  .donation__content_title{ 
+    font-size:21px;
+    
+  }
   .donation__group {
     text-align: center;
   }

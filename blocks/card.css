@@ -6,8 +6,8 @@
   color: #fff;
   overflow: hidden;
 }
-.card__vision{ 
-      border-bottom:1px solid white; 
+.card__vision {
+  border-bottom: 1px solid white;
 }
 .card__title {
   text-transform: uppercase;
@@ -42,20 +42,19 @@
   margin: 0 0 18px;
 }
 .card__mission_title {
-  padding: 20px 0 18px; 
+  padding: 20px 0 18px;
 }
 .card__vision_description {
   margin: 0;
   padding-bottom: 50px;
-  font-size: 20px;
-  font-weight: 400;
+  font-weight: normal;
   width: 600px;
+  line-height: 27px;
 }
 .card__mission_description {
   margin: 0;
-  font-size: 20px;
-  font-weight: 400;
   width: 600px;
+  line-height: 27px;
 }
 
 @media screen and (max-width: 600px) {
@@ -73,6 +72,7 @@
   }
   .card__mission_description {
     width: 100%;
+    font-weight: 300;
   }
   .card__vision_description {
     width: 100%;

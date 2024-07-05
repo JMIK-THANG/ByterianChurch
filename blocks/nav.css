@@ -28,5 +28,16 @@
 }
 
 @media screen and (max-width:500px){ 
+  .nav{ 
+    flex-direction:column; 
+    align-items: center;
+    /* overflow: hidden; */
+  }
+  .nav__logo{ 
+    width:100px; 
+    height:100px; 
+  }
+  .nav__links{ 
   
+  }
 }
