@@ -62,13 +62,13 @@ span {
   color: #000;
 }
 @media screen and (max-width: 500px) {
-  /* .header {
+  .header {
     margin: 0;
     white-space: nowrap;
     background:url(../img/pray.jpg) no-repeat; 
     background-position: center;
     background-size:cover; 
-  } */
+  }
   .header__title{ 
     font-size:23px; 
   }
