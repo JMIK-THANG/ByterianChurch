@@ -2,9 +2,12 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding: 117px 156px;
+  background: #ccc;
+
 }
 .donation__content {
   display: flex;
+  flex-wrap:wrap; 
   flex-direction: column;
   justify-content: center;
   align-items:center;
@@ -21,6 +24,8 @@
 }
 .donation__content_description {
   max-width: 410px;
+  line-height:27px; 
+  
   margin-bottom: 50px;
 }
 .donation__button {
@@ -28,22 +33,23 @@
   background: transparent;
   cursor: pointer;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 850px) {
   .donation {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 10px;
+    flex-wrap:wrap; 
+    padding: 0px;
     width: 100%;
   }
   .donation__content {
     margin-bottom: 50px;
-    padding: 70px;
+    padding: 55px;
   }
   .donation__content_title{ 
-    font-size:21px;
-    
+    font-size:20px;
   }
+
   .donation__group {
     text-align: center;
   }

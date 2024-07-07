@@ -60,14 +60,14 @@
 @media screen and (max-width: 600px) {
   .card {
     grid-template-columns: 1fr;
-    padding: 10px;
+    padding: 0px;
   }
   .card__vision_title {
-    text-align: center;
+    /* text-align: center; */
     padding-bottom: 10px;
   }
   .card__mission_title {
-    text-align: center;
+    /* text-align: center; */
     padding-bottom: 20px;
   }
   .card__mission_description {
@@ -76,7 +76,13 @@
   }
   .card__vision_description {
     width: 100%;
+    padding-bottom:15px; 
   }
   .card__vision_mission {
+  }
+}
+@media screen and ( max-width: 850px){ 
+  .card{ 
+    grid-template-columns:1fr; 
   }
 }
