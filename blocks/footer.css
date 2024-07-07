@@ -91,6 +91,9 @@
       .social__icons{ 
             margin-bottom:40px; 
       }
-     
+     .contact__image{ 
+      width:120px;
+      height:120px; 
+     }
     
 }
