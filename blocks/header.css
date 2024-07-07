@@ -61,9 +61,7 @@ span {
 }
 @media screen and (max-width: 500px) {
   .header {
-    margin: 0;
     background:url(../img/pray.jpg) no-repeat; 
-    /* background:url(../img/khawmlai.jpeg);  */
     height:25rem;
     background-position: center;
     background-size:cover; 
