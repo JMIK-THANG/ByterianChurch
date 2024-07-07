@@ -26,11 +26,16 @@
 .about__content_description {
   color: #fff;
   line-height:27px; 
-  width:280px;
 }
 
 @media screen and (max-width:750px) { 
 .about__header{ 
   height:90vh; 
 }
+}
+@media screen and (max-width:500px){ 
+  .about__content_description{ 
+    width:280px; 
+  }
+
 }

@@ -36,7 +36,7 @@
 @media screen and (max-width: 500px) {
   .pastor__description {
     width: 100%;
-    
+    padding-bottom:20px;
   }
   .pastor__image{ 
       margin:0; 
