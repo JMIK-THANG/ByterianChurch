@@ -32,8 +32,13 @@
   object-fit: cover;
   margin-top: -100px;
 }
+
 @media screen and (max-width: 500px) {
   .pastor__description {
     width: 100%;
+    
+  }
+  .pastor__image{ 
+      margin:0; 
   }
 }

@@ -1,5 +1,5 @@
 .about__header {
-  height: 40vh;
+  height: 70vh;
   padding: 30px 80px 40px;
   background:#0f4d6b;
   background-position: center;
@@ -28,17 +28,8 @@
   line-height:27px; 
 }
 
-@media screen and (max-width:500px){ 
-  .about__content_title{ 
-    top:100px; 
-  }
- 
-}
 @media screen and (max-width:750px) { 
-.about__content_description{ 
-  padding-bottom:30px;
-}
-.about__header{
-  height:55vh;
+.about__header{ 
+  height:90vh; 
 }
 }
