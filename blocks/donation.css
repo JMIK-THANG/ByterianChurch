@@ -1,6 +1,7 @@
 .donation {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  flex-wrap: wrap;
   padding: 117px 156px;
   background: #ccc;
 

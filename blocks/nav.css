@@ -63,7 +63,8 @@
     display:flex; 
     flex-direction: column;
     background: #5092b5;
-    width: 91.1%;
+    width: 90%;
+    margin:auto; 
     margin-left:20px;
     text-align: center;
     transition: 0.2s;
