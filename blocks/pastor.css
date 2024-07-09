@@ -12,25 +12,28 @@
   margin: 0 auto;
   padding: 30px;
 }
-.pastor__content {
-  z-index: 999;
+.pastor__content{ 
+  display:flex; 
+  flex-direction:column; 
+  justify-content: center;
+  align-items:center;
+  padding-bottom:0px; 
 }
 .pastor__title {
   text-align: center;
-  padding: 40px 0 60px;
   font-weight: 500;
 }
 .pastor__description {
   max-width: 1100px;
   line-height: 27px;
-  padding-bottom: 120px;
+  padding-bottom: 40px;
 }
 .pastor__image {
   width: 200px;
   height: 200px;
   border-radius: 50%;
   object-fit: cover;
-  margin-top: -100px;
+  margin-top: -140px;
 }
 
 @media screen and (max-width: 500px) {
@@ -40,5 +43,11 @@
   }
   .pastor__image{ 
       margin:0; 
+      width:150px; 
+      height:150px; 
+  }
+  .pastor__title{ 
+    padding:20px 0; 
+    font-weight: 400;
   }
 }
