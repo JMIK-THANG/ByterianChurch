@@ -31,12 +31,15 @@
 @media screen and (max-width:768px) { 
 .about__content{ 
   height:40vh ;
-  padding-top:100px; 
+  padding-top:140px; 
 }
 }
 @media screen and (max-width:500px){ 
+  .about__header{ 
+    height:85vh;
+  }
   .about__content{ 
-    /* padding-top:100px;  */
+    height:55vh;
   }
   .about__content_description{ 
     width:280px; 
