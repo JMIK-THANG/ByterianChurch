@@ -1,5 +1,6 @@
 .about__header {
-  height: 70vh;
+  /* height: 70vh; */
+  height:100vh; 
   padding: 30px 70px 40px;
   background:#0f4d6b;
   background-position: center;
