@@ -38,7 +38,7 @@
   z-index:1; 
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .pastor__description {
     width: 100%;
     padding-bottom:20px;
