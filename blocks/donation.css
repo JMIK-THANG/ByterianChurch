@@ -4,7 +4,8 @@
   flex-wrap: wrap;
   padding: 117px 156px;
   background: #ccc;
-
+ /* height:70vh ; */
+ width:100%; 
 }
 .donation__content {
   display: flex;

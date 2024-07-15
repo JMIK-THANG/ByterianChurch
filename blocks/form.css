@@ -44,7 +44,7 @@
 .form__button:hover{ 
   color:#ccc;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 530px) {
   .form{ 
     padding:10px; 
   }

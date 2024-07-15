@@ -15,39 +15,23 @@
   box-sizing: border-box;
   z-index: 999;
 }
-.header__content_wrapper {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  top: -30px;
-  color: #fff;
-  width:100%; 
-  height:100%; 
-}
-/* .header__content_overlay {
-  background: rgba(255, 255, 255, 0.7);
-  padding: 70px 50px;
-  max-width: 460px;
-  width: 100%;
-  border-radius: 5px;
-} */
+
 .header__content {
-  max-width: 400px;
-  width: 100%;
-  height: 210px;
-  background-color: #eee;
-  padding: 30px;
-}
-span {
-  display: block;
+  position:absolute; 
+  top:25%; 
+  left:35%; 
+  display:flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  height:250px;
+  width:450px;; 
+  padding:30px; 
+  background:rgba(255,255,255,0.6); 
 }
 .header__title {
-  max-width: 20ch;
+  max-width: 10ch;
+  color: #fff;
   line-height: 37px;
   color: #000;
   font-size: 33px;
@@ -59,20 +43,28 @@ span {
   font-size: 20px;
   color: #000;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
   .header {
-    background:url(../img/pray.jpg) no-repeat; 
-    height:25rem;
+    background: url(../img/pray.jpg) no-repeat;
+    height: 25rem;
     background-position: center;
-    background-size:cover; 
+    background-size: cover;
   }
-  .header__title{ 
-    font-size:23px; 
+  .header__title {
+    font-size: 23px;
   }
-  .header__description{ 
-    font-size:18px; 
+  .header__description {
+    font-size: 18px;
   }
-  .header__content_overlay{ 
-    display:none; 
+  .header__content_wrapper {
+    display: none;
+  }
+  .header__content{ 
+    display:none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header__content_wrapper {
+    display: none;
   }
 }
