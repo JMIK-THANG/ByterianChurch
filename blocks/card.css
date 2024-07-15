@@ -4,6 +4,7 @@
   margin: 0 auto;
   color: #fff;
   overflow: hidden;
+  height:100vh;
 }
 .card__vision {
   border-bottom: 1px solid white;
@@ -56,10 +57,11 @@
   line-height: 27px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   .card {
     grid-template-columns: 1fr;
     padding: 0px;
+    height:100%; 
   }
   .card__vision_title {
     /* text-align: center; */
@@ -83,5 +85,6 @@
 @media screen and ( max-width: 850px){ 
   .card{ 
     grid-template-columns:1fr; 
+    height:100%;
   }
 }
