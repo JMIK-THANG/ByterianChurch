@@ -1,7 +1,7 @@
 .contact{ 
       display:grid; 
       grid-template-columns: repeat(2,1fr);
-      padding:100px 250px; 
+      padding:50px; 
       background-color:#0f4d6b;
       color:#fff; 
       justify-content: center;
@@ -16,14 +16,14 @@
       display:flex; 
       flex-direction:column; 
       justify-content:center;
-      align-items:flex-start;
+      align-items:center;
      
 }
 .contact__form{ 
       display:flex; 
       flex-direction: column;
       justify-content: center;
-      align-items: center;
+      align-items:center;
       width:100%;
 
 }
@@ -48,7 +48,7 @@
       
 }
 .contact__address{ 
-      width:239px;
+      /* width:239px; */
       margin:0 0 20px; 
 }
 .social__icons{ 
@@ -87,9 +87,9 @@
       .contact__info{ 
             align-items: center;
       }
-      .content__email{ 
-      text-align:center; 
-      width:100px; 
+      .contact__email{ 
+       margin:0 auto; 
+       padding:10px 0; 
       }
       
       .social__icons{ 
@@ -100,4 +100,12 @@
       height:120px; 
      }
     
+}
+@media screen and ( max-width:500px) { 
+.contact__address{ 
+width:250px; 
+text-align:center;
+margin:0 auto; 
+padding-bottom:20px; 
+}
 }

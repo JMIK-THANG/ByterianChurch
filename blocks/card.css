@@ -4,7 +4,8 @@
   margin: 0 auto;
   color: #fff;
   overflow: hidden;
-  height:100vh;
+  height:100%;
+  width:100%; 
 }
 .card__vision {
   border-bottom: 1px solid white;
@@ -48,12 +49,10 @@
   margin: 0;
   padding-bottom: 50px;
   font-weight: normal;
-  width: 600px;
   line-height: 27px;
 }
 .card__mission_description {
   margin: 0;
-  width: 600px;
   line-height: 27px;
 }
 
@@ -78,8 +77,6 @@
   .card__vision_description {
     width: 100%;
     padding-bottom:15px; 
-  }
-  .card__vision_mission {
   }
 }
 @media screen and ( max-width: 850px){ 

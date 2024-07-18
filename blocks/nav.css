@@ -42,7 +42,7 @@
   transition: all 0.3s ease-in-out;
   background-color: white;
 }
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .hamburger {
     display: block;
     padding: 40px;
@@ -63,9 +63,9 @@
     display:flex; 
     flex-direction: column;
     background: #5092b5;
-    width: 90%;
+    width: 95%;
     margin:auto; 
-    margin-left:20px;
+    margin-left:18px;
     text-align: center;
     transition: 0.2s;
     padding: 120px 0 60px;
@@ -77,6 +77,7 @@
     left: 0;
   }
 }
+
 @media screen and (max-width: 600px) {
   .nav {
     flex-direction: column;
@@ -89,5 +90,9 @@
   }
   .hamburger{ 
     padding:20px 0; 
+  }
+  .nav__links{ 
+    width:91%; 
+    margin-left:21px; 
   }
 }
