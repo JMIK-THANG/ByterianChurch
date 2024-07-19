@@ -119,9 +119,9 @@
     padding: 80px 0 60px;
   }
 }
-@media screen and (max-width:320px){ 
+@media screen and (max-width:420px){ 
   .nav__links {
-    width:88%;
+    width:90%;
   height: 100%;
   margin-top: 10px;
   margin-left: 19px;
