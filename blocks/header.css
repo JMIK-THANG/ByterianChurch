@@ -45,7 +45,7 @@
   color: #000;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 880px) {
   .header {
     background: url(../img/pray.jpg) no-repeat;
     height: 25rem;
