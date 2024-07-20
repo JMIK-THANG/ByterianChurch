@@ -32,7 +32,7 @@
 
 @media screen and (max-width:768px) { 
   .about__header{ 
-    /* height:10vh;  */
+    height:10vh; 
     width:100%; 
     margin: 0 auto; 
   }
@@ -44,7 +44,7 @@
 @media screen and (max-width:600px){ 
   .about__header{ 
     background:#0f4d6b; 
-    height:5rem;
+    height:rem;
     width:100%; 
     margin:0 auto; 
   }
