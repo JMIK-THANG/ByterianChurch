@@ -40,7 +40,7 @@
 .doctrine__apostle_title {
   padding: 15px 0;
   font-weight: 600;
-  font-size:22px;
+  font-size: 22px;
   width: 200px;
   margin: 0 auto;
   text-align: center;
@@ -69,7 +69,7 @@
 .doctrine__nicea_title {
   padding: 15px 0;
   font-weight: 600;
-  font-size:22px;
+  font-size: 22px;
   max-width: 200px;
   text-align: center;
 }
@@ -77,6 +77,9 @@
   padding-bottom: 10px;
 }
 @media screen and (max-width: 500px) {
+  .doctrine__nicea_description {
+    padding-bottom: 5px; 
+  }
   .doctrine__image {
     width: 60px;
     height: 60px;
