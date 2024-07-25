@@ -1,0 +1,25 @@
+
+.ministries-header{ 
+      height:40vh; 
+      width:100%; 
+      background-image:url(../img/ministriesHome.svg);
+      background-repeat: no-repeat; 
+      background-position:center; 
+      background-size: cover;
+      padding:50px; 
+}
+.ministries__content{ 
+      text-align: center;
+      padding-top:100px; 
+      font-size:38px; 
+      line-height:48px; 
+}
+.kawhhran__container{ 
+      display:grid; 
+      grid-template-columns: repeat(2,1fr);
+height:100vh;     
+place-items:center;
+align-items: center;
+justify-content: center;
+
+}

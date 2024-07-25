@@ -15,6 +15,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     />
+
     <link rel="stylesheet" href="vendor/normalize.css" />
     <link rel="stylesheet" href="css/utilities.css" />
     <link rel="stylesheet" href="pages/index.css" />
@@ -32,7 +33,6 @@
             <li><a href="ministries.html" class="nav__link">Ministries</a></li>
             <li><a href="#contact" class="nav__link">Contact</a></li>
             <h3 class="nav__link_description">CPCI</h3>
-
           </ul>
           <div class="hamburger">
             <span class="bar"></span>
@@ -41,23 +41,22 @@
           </div>
         </nav>
       </div>
-        <div class="about__content">
-            <h3 class="about__content_title">About Us</h3>
-            <p class="about__content_description">
-              At Emmanuel Presbyterian Church, our ultimate goal to lead
-              individuals to experience the mercy and grace of Jesus Christ,
-              ultimately guiding them towards eternal life. We understand that
-              stepping into a new church environment can be intimidating, which
-              is why we strive to create a welcoming atmosphere where everyone
-              feels like they truly belong. No one is without flaws, but through
-              God's grace, we are all accepted just as we are. EPC embraces
-              growth and transformation, recognizing that each new member brings
-              something unique to our community. Join us and witness the love of
-              Jesus in action as we support you in your journey of faith and
-              spiritual growth.
-            </p>
-        </div>
-      
+      <div class="about__content">
+        <h3 class="about__content_title">About Us</h3>
+        <p class="about__content_description">
+          At Emmanuel Presbyterian Church, our ultimate goal to lead individuals
+          to experience the mercy and grace of Jesus Christ, ultimately guiding
+          them towards eternal life. We understand that stepping into a new
+          church environment can be intimidating, which is why we strive to
+          create a welcoming atmosphere where everyone feels like they truly
+          belong. No one is without flaws, but through God's grace, we are all
+          accepted just as we are. EPC embraces growth and transformation,
+          recognizing that each new member brings something unique to our
+          community. Join us and witness the love of Jesus in action as we
+          support you in your journey of faith and spiritual growth.
+        </p>
+      </div>
+
       <main>
         <section class="pastor">
           <div class="pastor__container">
@@ -65,34 +64,38 @@
               <img class="pastor__image" src="./img/Pastor.png" alt="Pastor" />
               <h3 class="pastor__title">Pastor Lal Kawl Tir</h3>
             </div>
-            <p class="pastor__description">
-              Pastor Tir is a second-generation member of the Presbyterian
-              Church of Myanmar, following the footsteps of his grandfather, a
-              member and ordained elder of the church. He embraced Jesus as his
-              personal savior in 5, committing his life to faithfully walking in
-              the path of Christ. From a young age, Pastor Tir pursued his
-              divine calling, immersing himself in seminary and theological
-              studies. <br />
-              At just 15 years old in 1999, he embarked on his journey at a
-              Biblical seminary, ultimately earning a Bachelor of Theology from
-              Bethel Theological Seminary (BTS) in 2006. Concurrently, through
-              dedicated distance learning, he also obtained a Bachelor of
-              Science from Mandalay (Secular College). In 2015, Pastor Tir
-              achieved his Master in Divinity from Tahan Theological College
-              through distance learning. <br />Driven by a fervent zeal to
-              spread the gospel, Pastor Tir passionately engages in mission
-              work, fearlessly preaching in unreached territories. Committed to
-              community development, he selflessly imparts English classes
-              during the summer months. In March 2011, Pastor Tir united in
-              marriage with Lalven Thuang, their union blessed with three
-              children—Lal Biak Muan, Siang Rin Tluang, and Zir Sang Lian, with
-              another little one on the way. <br />In 2012, as a refugee in the
-              United States, Pastor Tir answered the call to minister at the
-              Chin Christian Presbyterian Church of Indiana (CCPC), receiving
-              ordination in 2018. With unwavering dedication, he embraces his
-              divine calling, resolved to serve in ministry until the end of his
-              days.
-            </p>
+            <div class="pastor__description bio" data-id="26">
+              <p>
+                Pastor Tir is a second-generation member of the Presbyterian
+                Church of Myanmar, following the footsteps of his grandfather, a
+                member and ordained elder of the church. He embraced Jesus as
+                his personal savior in 5, committing his life to faithfully
+                walking in the path of Christ. From a young age, Pastor Tir
+                pursued his divine calling, immersing himself in seminary and
+                theological studies. <br />
+                At just 15 years old in 1999, he embarked on his journey at a
+                Biblical seminary, ultimately earning a Bachelor of Theology
+                from Bethel Theological Seminary (BTS) in 2006. Concurrently,
+                through dedicated distance learning, he also obtained a Bachelor
+                of Science from Mandalay (Secular College). In 2015, Pastor Tir
+                achieved his Master in Divinity from Tahan Theological College
+                through distance learning. <br />Driven by a fervent zeal to
+                spread the gospel, Pastor Tir passionately engages in mission
+                work, fearlessly preaching in unreached territories. Committed
+                to community development, he selflessly imparts English classes
+                during the summer months. In March 2011, Pastor Tir united in
+                marriage with Lalven Thuang, their union blessed with three
+                children—Lal Biak Muan, Siang Rin Tluang, and Zir Sang Lian,
+                with another little one on the way. <br />In 2012, as a refugee
+                in the United States, Pastor Tir answered the call to minister
+                at the Chin Christian Presbyterian Church of Indiana (CCPC),
+                receiving ordination in 2018. With unwavering dedication, he
+                embraces his divine calling, resolved to serve in ministry until
+                the end of his days.
+              </p>
+              <div class="reade-more-fade"></div>
+            </div>
+            <!-- <a href="#" class="read-more" data-id="26">Read More</a> -->
           </div>
         </section>
         <section class="doctrine">
@@ -106,7 +109,7 @@
           </div>
           <div class="doctrine__description">
             <div class="doctrine__apostle">
-              <h3 class="doctrine__apostle_title">Apostle-pawl thurin</h3>
+              <h3 class="doctrine__apostle_title">Apostle-pawl Thurin</h3>
               <ul class="doctrine__apostle_description">
                 <li class="doctrine__apostle_description-item">
                   Pathian, Pa, Ziangkim tithei, lei le van semsuahtu cu ka pawm.
@@ -262,6 +265,10 @@
           </form>
         </div>
       </div>
+      <!-- Arrow up  -->
+      <div id="progress">
+        <span class="progress__value">&#x1F815;</span>
+      </div>
       <div class="goole__map">
         <p>
           <iframe
@@ -279,6 +286,11 @@
         <p>Copyrigth &copy; 2023 EPC. All Rights Resesrved.</p>
       </div>
     </div>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
     <script src="scripts/script.js"></script>
   </body>
 </html>

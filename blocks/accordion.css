@@ -1,0 +1,47 @@
+/* .read-more{ 
+      display:none; 
+
+}
+@media screen and (max-width:500px){ 
+
+      .read-more{ 
+            display:block; 
+      }
+      .bio, .read-more-fade {
+            transition: 150ms ease-in;
+          }
+          
+          .bio {
+                max-height:120px;
+                overflow-y: hidden;
+                display: inline-block;
+                position: relative;
+          }
+          
+          .read-more-fade {
+                display: block;
+                position: absolute;
+                bottom: 0px;
+                width: 100%;
+                height: 50px;
+                background: linear-gradient(to bottom, transparent, white);
+          }
+          
+          .bio.BOOM {
+                overflow-y: visible;
+                height: auto;
+          }
+          
+          .read-more-fade.BOOM {
+                background: linear-gradient(to bottom, transparent, transparent);
+          }
+          
+          a.read-more {
+                display: block;
+                color: blue;
+                margin-top: 10px;
+                text-decoration: none;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+          }
+} */

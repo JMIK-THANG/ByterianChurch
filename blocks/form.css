@@ -10,7 +10,7 @@
 }
 .form__fieldset {
   border: none;
-  /* width:100%;  */
+  width:100%; 
   width:500px; 
   padding:0; 
 }

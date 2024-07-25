@@ -12,17 +12,18 @@
   margin: 0 auto;
   padding: 30px;
 }
-.pastor__content{ 
-  display:flex; 
-  flex-direction:column; 
+.pastor__content {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items:center;
-  padding-bottom:0px; 
+  align-items: center;
+  padding-bottom: 0px;
 }
 .pastor__title {
   text-align: center;
-  font-weight: 500;
-  padding:20px 0; 
+  font-weight: 600;
+  font-size: 22px;
+  padding: 20px 0;
 }
 .pastor__description {
   max-width: 1100px;
@@ -35,20 +36,19 @@
   border-radius: 50%;
   object-fit: cover;
   margin-top: -140px;
-  z-index:1; 
+  z-index: 1;
 }
-
 @media screen and (max-width: 600px) {
   .pastor__description {
     width: 100%;
-    padding-bottom:20px;
+    padding-bottom: 20px;
   }
-  .pastor__image{ 
-      margin:0; 
-      width:150px; 
-      height:150px; 
+  .pastor__image {
+    margin: 0;
+    width: 150px;
+    height: 150px;
   }
-  .pastor__title{ 
-    padding:20px 0; 
+  .pastor__title {
+    padding: 20px 0;
   }
 }
