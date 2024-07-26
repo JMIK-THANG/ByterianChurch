@@ -1,25 +1,193 @@
-
-.ministries-header{ 
-      height:40vh; 
+.ministries-header {
+  height: calc(100% - 70px);
+  width: 100%;
+  background-image: url(../img/ministriesHome.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.ministries__content {
+  text-align: center;
+  height:100%; 
+  padding-top: 130px;
+  font-size: 30px;
+  line-height: 48px;
+  letter-spacing: 1px;
+  color: #fff;
+}
+.kawhhran__container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+  padding: 20px 0 0px;
+  margin-bottom: 40px;
+}
+.kawhhran__container img{ 
+      max-width:500px ; 
       width:100%; 
-      background-image:url(../img/ministriesHome.svg);
-      background-repeat: no-repeat; 
-      background-position:center; 
-      background-size: cover;
-      padding:50px; 
 }
-.ministries__content{ 
-      text-align: center;
-      padding-top:100px; 
-      font-size:38px; 
-      line-height:48px; 
+.kawhhran__pabu,
+.kawhhran__nubu {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.kawhhran__container{ 
-      display:grid; 
-      grid-template-columns: repeat(2,1fr);
-height:100vh;     
-place-items:center;
-align-items: center;
-justify-content: center;
+.kawhhran__pabu_hmin,
+.kawhhran__nubu_hmin {
+  margin-top: 25px;
+  font-size: 18px;
+  line-height: 26.1px;
+}
+.kawhhran__title {
+  padding: 20px;
+}
 
+/* Sunday School section */
+
+.sunday_school__container {
+  padding: 40px 0 40px;
+  /* height:calc(100% + 200px);  */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.sunday_school__container img{ 
+      max-width:500px ; 
+      width:100%; 
+}
+.sunday-school__title {
+  padding: 40px;
+}
+.sunday-shcool__zirhtu_hmin_lists {
+  padding-top: 38px;
+}
+.sunday-school__zirhtu_hmin {
+  font-size: 18px;
+  line-height: 26.1px;
+}
+
+/* cpyf and praise team section */
+.CPYF-PraiseTeam__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0 40px;
+}
+.CPYF,
+.praiseTeam {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 18px;
+  line-height: 26.1px;
+}
+
+.CPYF__title,
+.praiseTeam__title {
+  padding: 30px 0;
+}
+
+/* Auditors and Media Team section */
+
+.Audit-Media__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0 40px;
+}
+.auditors,
+.mediaTeam {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 18px;
+  line-height: 26.1px;
+}
+.auditors__title,
+.mediaTeam__title {
+  padding: 40px 0;
+}
+
+/* Calai le mission committee */
+.calai-mission-committee__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0 40px;
+}
+.calai,
+.mission-committee {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  line-height: 26.1px;
+}
+.calai__title,
+.mission-committee__title {
+  padding: 40px 0;
+}
+
+/* Building committee */
+.building__container {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 0;
+  align-items: center;
+  justify-content: center;
+  line-height: 26.1px;
+}
+.building__title {
+  padding: 40px 0;
+}
+
+@media screen and (max-width: 920px) {
+  .kawhhran__container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .kawhhran__nubu {
+    padding-top: 30px;
+  }
+}
+@media screen and (max-width: 750px) {
+      .CPYF,
+.praiseTeam, .sunday-school{
+      width:100vw; 
+}
+
+  .CPYF-PraiseTeam__container,
+  .Audit-Media__container,
+  .calai-mission-committee__container {
+    flex-direction: column;
+    align-items: center;
+    width:100vw; 
+  }
+  .praiseTeam {
+    padding-top: 20px;
+  }
+  .calai__title, 
+  .mission-committee__title,
+  .kawhhran__title,
+  .sunday-school__title, .building__title, .auditors__title, 
+  .mediaTeam__title{
+    font-size: 18px;
+  }
+  .Audit-Media__container, 
+  .sunday-school__title, .calai-mission-committee__container
+  { 
+      padding: 0px ; 
+  }
+  .building__container{ 
+      padding:0 0 20px; 
+  }
+  .sunday-shcool__zirhtu_hmin_lists{ 
+      align-items: center;
+  }
 }
