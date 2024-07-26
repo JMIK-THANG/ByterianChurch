@@ -9,6 +9,8 @@
   list-style-type: none;
   gap: 20px;
   z-index: 999;
+  text-transform: uppercase;
+
 }
 .nav__link {
   color: #fff;

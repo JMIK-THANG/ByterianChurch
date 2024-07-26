@@ -13,11 +13,11 @@
 .card__title {
   text-transform: uppercase;
   margin: 0 0 20px;
-  font-size:22px; 
+  font-size: 22px;
 }
-.card__lists{ 
-  font-weight:300; 
-  font-size:25px;
+.card__lists {
+  font-weight: 300;
+  font-size: 25px;
 }
 
 .card__list_item {
@@ -59,7 +59,7 @@
 .card__mission_description {
   margin: 0;
   line-height: 27px;
-  font-weight:normal; 
+  font-weight: normal;
 }
 
 @media screen and (max-width: 650px) {
@@ -68,10 +68,10 @@
     padding: 0px;
     height: 100%;
   }
-  .card__lists{ 
-    font-size:16px; 
+  .card__lists {
+    font-size: 16px;
   }
-  .card__list_item{ 
+  .card__list_item {
     padding-bottom: 10px;
   }
   .card__vision_title {
