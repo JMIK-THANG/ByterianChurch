@@ -94,6 +94,9 @@
   margin: 0 auto;
   padding-bottom: 20px;
 }
+.google__map{ 
+  width:100%; 
+}
 #progress{ 
   position:fixed; 
   right:10px; 

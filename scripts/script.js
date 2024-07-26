@@ -13,6 +13,27 @@ document.querySelectorAll(".nav__link").forEach((n) =>
   })
 );
 
+// Preview image
+const previewImageModal = document.querySelector(".modal_preview-image");
+const previewCloseButton = previewImage.querySelector(".modal__close_preview");
+const modalImage = document.querySelector("modal__image"); 
+
+function closeModal(modal) {
+  modal.classList.remove("modal_opened");
+}
+function openModal(modal) {
+  modal.classList.add("modal_opened");
+}
+function handlePreviewPicture(data) {
+  previewDescription.textContent = data.name;
+  previewImage.src = data.link;
+  previewImage.alt = data.name;
+  openModal(previewImageModal);
+}
+previewCloseButton.addEventListener("click", () =>
+  closeModal(previewImageModal)
+);
+modalImage.addEventListener("click", handlePreviewPicture(data)); 
 // Read more / Read less
 
 // $(".read-more").click(function () {
@@ -46,7 +67,7 @@ let calcScrollValue = () => {
   scrollProgress.addEventListener("click", () => {
     document.documentElement.scrollTop = 0;
   });
-  scrollProgress.style.background=`conic-gradient(#0f4d6b ${scrollValue}%, #d7d7d7 ${scrollValue}%)`
+  scrollProgress.style.background = `conic-gradient(#0f4d6b ${scrollValue}%, #d7d7d7 ${scrollValue}%)`;
 };
 window.onscroll = calcScrollValue;
 window.onload = calcScrollValue;

@@ -22,6 +22,8 @@
   cursor: pointer;
 }
 .donation__content_title {
+  font-size:22px; 
+  font-weight:bold; 
   padding-bottom: 20px;
 }
 .donation__content_description {
@@ -44,7 +46,7 @@
     width: 100%;
   }
   .donation__content {
-    padding: 30px;
+    padding: 50px 30px;
     border:none; 
   }
   .donation__content_title {

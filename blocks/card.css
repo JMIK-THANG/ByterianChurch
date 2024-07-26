@@ -4,8 +4,8 @@
   margin: 0 auto;
   color: #fff;
   overflow: hidden;
-  height:100%;
-  width:100%; 
+  height: 100%;
+  width: 100%;
 }
 .card__vision {
   border-bottom: 1px solid white;
@@ -13,10 +13,15 @@
 .card__title {
   text-transform: uppercase;
   margin: 0 0 20px;
+  font-size:22px; 
+}
+.card__lists{ 
+  font-weight:300; 
+  font-size:25px;
 }
 
 .card__list_item {
-  padding-bottom: 10px;
+  padding-bottom: 30px;
 }
 .card__list_item:last-child {
   padding: 0;
@@ -54,13 +59,20 @@
 .card__mission_description {
   margin: 0;
   line-height: 27px;
+  font-weight:normal; 
 }
 
 @media screen and (max-width: 650px) {
   .card {
     grid-template-columns: 1fr;
     padding: 0px;
-    height:100%; 
+    height: 100%;
+  }
+  .card__lists{ 
+    font-size:16px; 
+  }
+  .card__list_item{ 
+    padding-bottom: 10px;
   }
   .card__vision_title {
     /* text-align: center; */
@@ -76,12 +88,12 @@
   }
   .card__vision_description {
     width: 100%;
-    padding-bottom:15px; 
+    padding-bottom: 15px;
   }
 }
-@media screen and ( max-width: 850px){ 
-  .card{ 
-    grid-template-columns:1fr; 
-    height:100%;
+@media screen and (max-width: 850px) {
+  .card {
+    grid-template-columns: 1fr;
+    height: 100%;
   }
 }
