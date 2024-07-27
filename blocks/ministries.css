@@ -28,7 +28,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  flex: 1;
   height: 100%;
 }
 .kawhhran__pabu_hmin,
@@ -36,7 +36,9 @@
   margin-top: 25px;
   font-size: 18px;
   line-height: 26.1px;
+  padding: 0;
 }
+
 .kawhhran__title {
   padding: 20px;
 }
@@ -47,6 +49,7 @@
   display: flex;
   flex-direction: column;
   place-items: center;
+  background-color: #fff;
 }
 .sundaySchool__image,
 .nubu__image,
@@ -68,62 +71,37 @@
 }
 
 /* cpyf and praise team section */
-.CPYF-PraiseTeam__container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  place-items: center;
+.CPYF-PraiseTeam__container,
+.Audit-Media__container,
+.calai-mission-committee__container
+ {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
   padding: 30px 0;
+  background: white;
 }
 .CPYF,
-.praiseTeam {
+.praiseTeam,
+.auditors,
+.mediaTeam,.calai,
+.mission-committee {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
   font-size: 18px;
   line-height: 26.1px;
 }
 
 .CPYF__title,
-.praiseTeam__title {
+.praiseTeam__title,.auditors__title,
+.mediaTeam__title,.calai__title,
+.mission-committee__title,.building__title {
   padding: 30px 0;
-}
-.CPYF__hmin_lists {
-  padding: 0;
-  margin: 0;
+  font-size:24px; 
 }
 
-/* Auditors and Media Team section */
-
-.Audit-Media__container {
-  padding: 40px 0 40px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  place-items: center;
-}
-.auditors,
-.mediaTeam {
-  font-size: 18px;
-  line-height: 26.1px;
-}
-.auditors__title,
-.mediaTeam__title {
-  padding: 20px 0;
-}
-
-/* Calai le mission committee */
-.calai-mission-committee__container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  place-items: center;
-  padding: 40px 0 40px;
-}
-.calai,
-.mission-committee {
-  align-items: center;
-  line-height: 26.1px;
-  padding: 30px 0;
-}
-.calai__title,
-.mission-committee__title {
-  padding: 2cqw 0;
-}
 
 /* Building committee */
 .building__container {
@@ -133,10 +111,9 @@
   align-items: center;
   justify-content: center;
   line-height: 26.1px;
+  background-color: white;
 }
-.building__title {
-  padding: 40px 0;
-}
+
 
 @media screen and (max-width: 920px) {
   .kawhhran__container {
@@ -146,6 +123,19 @@
   .kawhhran__nubu {
     padding-top: 30px;
   }
+  .calai__title,
+  .mission-committee__title,
+  .kawhhran__title,
+  .sunday-school__title,
+  .building__title,
+  .auditors__title,
+  .mediaTeam__title,
+  .CPYF__title,
+  .praiseTeam__title {
+    font-size: 20px;
+    text-transform: uppercase;
+    
+  }
 }
 @media screen and (max-width: 620px) {
   .ministries__content {
@@ -154,12 +144,13 @@
   .ministries__title {
     font-size: 25px;
   }
+  
 
   .CPYF-PraiseTeam__container,
   .sunday-school__container,
   .Audit-Media__container,
   .calai-mission-committee__container {
-    grid-template-columns: 1fr;
+   flex-direction: column;
     text-align: start;
     padding: 40px;
   }
@@ -173,15 +164,15 @@
   .mediaTeam__title,
   .CPYF__title,
   .praiseTeam__title {
-    font-size: 18px;
-    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
   }
   .calai__title {
     font-size: 20px;
   }
   .building__container {
-    padding: 0 0 20px;
-    flex-direction: 1fr;
+    padding:10px 40px;
+    align-items: flex-start;;
   }
   .pabu__image,
   .nubu__image {
@@ -190,14 +181,40 @@
     object-fit: cover;
     width: 75vw;
   }
-  .kawhhran__pabu_hmin,
-  .kawhhran__nubu_hmin,
-  .sunday-school__zirhtu_hmin {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    width: 100vw;
-    padding: 0 40px;
-  }
+  .CPYF__title,
+.praiseTeam__title,.auditors__title,
+.mediaTeam__title,.calai__title,
+.mission-committee__title,.building__title {
+  padding: 20px 0;
+  font-size:18px; 
+}
+.CPYF,
+.praiseTeam,
+.auditors,
+.mediaTeam,.calai,
+.mission-committee {
+  align-items:flex-start;
+  font-size: 18px;
+  line-height: 26.1px;
+}
+ol{ 
+      list-style-position:inside;
+}
+.kawhhran__pabu_hmin,
+.kawhhran__nubu_hmin, .sunday-school__section {
+ padding:30px
+}
+.Audit-Media__container{ 
+      padding-bottom:10px; 
+}
+ 
+}
+@media screen and (max-width:320px){ 
+      .CPYF__title,
+.praiseTeam__title,.auditors__title,
+.mediaTeam__title,.calai__title,
+.mission-committee__title,.building__title {
+  padding: 20px 0;
+  font-size:14px; 
+}
 }

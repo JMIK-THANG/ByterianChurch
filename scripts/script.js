@@ -16,7 +16,7 @@ document.querySelectorAll(".nav__link").forEach((n) =>
 // Preview image
 // const previewImageModal = document.querySelector(".modal_preview-image");
 // const previewCloseButton = previewImage.querySelector(".modal__close_preview");
-// const modalImage = document.querySelector("modal__image"); 
+// const modalImage = document.querySelector("modal__image");
 
 // function closeModal(modal) {
 //   modal.classList.remove("modal_opened");
@@ -33,7 +33,7 @@ document.querySelectorAll(".nav__link").forEach((n) =>
 // previewCloseButton.addEventListener("click", () =>
 //   closeModal(previewImageModal)
 // );
-// modalImage.addEventListener("click", handlePreviewPicture(data)); 
+// modalImage.addEventListener("click", handlePreviewPicture(data));
 // Read more / Read less
 
 // $(".read-more").click(function () {
