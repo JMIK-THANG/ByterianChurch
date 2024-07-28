@@ -73,10 +73,9 @@
 /* cpyf and praise team section */
 .CPYF-PraiseTeam__container,
 .Audit-Media__container,
-.calai-mission-committee__container
- {
+.calai-mission-committee__container {
   display: flex;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding: 30px 0;
   background: white;
@@ -84,7 +83,8 @@
 .CPYF,
 .praiseTeam,
 .auditors,
-.mediaTeam,.calai,
+.mediaTeam,
+.calai,
 .mission-committee {
   display: flex;
   flex-direction: column;
@@ -95,13 +95,15 @@
 }
 
 .CPYF__title,
-.praiseTeam__title,.auditors__title,
-.mediaTeam__title,.calai__title,
-.mission-committee__title,.building__title {
+.praiseTeam__title,
+.auditors__title,
+.mediaTeam__title,
+.calai__title,
+.mission-committee__title,
+.building__title {
   padding: 30px 0;
-  font-size:24px; 
+  font-size: 24px;
 }
-
 
 /* Building committee */
 .building__container {
@@ -113,7 +115,6 @@
   line-height: 26.1px;
   background-color: white;
 }
-
 
 @media screen and (max-width: 920px) {
   .kawhhran__container {
@@ -133,7 +134,6 @@
   .CPYF__title,
   .praiseTeam__title {
     font-size: 20px;
-    
   }
 }
 @media screen and (max-width: 620px) {
@@ -143,19 +143,17 @@
   .ministries__title {
     font-size: 25px;
   }
-  
-
   .CPYF-PraiseTeam__container,
   .sunday-school__container,
   .Audit-Media__container,
   .calai-mission-committee__container {
-   flex-direction: column;
+    flex-direction: column;
     text-align: start;
     padding: 40px;
   }
   .building__container {
-    padding:10px 40px;
-    align-items: flex-start;;
+    padding: 10px 40px;
+    align-items: flex-start;
   }
   .pabu__image,
   .nubu__image {
@@ -165,50 +163,57 @@
     width: 75vw;
   }
   .CPYF__title,
-.praiseTeam__title,.auditors__title,
-.mediaTeam__title,.calai__title,
-.mission-committee__title,.building__title {
-  padding: 20px 0;
-  font-size:18px; 
+  .praiseTeam__title,
+  .auditors__title,
+  .mediaTeam__title,
+  .calai__title,
+  .mission-committee__title,
+  .building__title {
+    padding: 20px 0;
+    font-size: 18px;
+  }
+  .CPYF,
+  .praiseTeam,
+  .auditors,
+  .mediaTeam,
+  .calai,
+  .mission-committee {
+    align-items: flex-start;
+    font-size: 18px;
+    line-height: 26.1px;
+  }
+  ol {
+    list-style-position: inside;
+    font-size: 16px;
+  }
+  .kawhhran__pabu_hmin,
+  .kawhhran__nubu_hmin,
+  .sunday-school__section {
+    padding: 0 40px;
+  }
+  .sunday-shcool__zirhtu_hmin_lists {
+    font-size: 10px;
+  }
+  .Audit-Media__container {
+    padding-bottom: 10px;
+  }
+  .calai-mission-committee__container,
+  .Audit-Media__container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  hr {
+    display: none;
+  }
 }
-.CPYF,
-.praiseTeam,
-.auditors,
-.mediaTeam,.calai,
-.mission-committee {
-  align-items:flex-start;
-  font-size: 18px;
-  line-height: 26.1px;
-}
-ol{ 
-      list-style-position:inside;
-      font-size: 16px;
-}
-.kawhhran__pabu_hmin,
-.kawhhran__nubu_hmin, .sunday-school__section
- {
- padding:0 40px; 
-}
-.sunday-shcool__zirhtu_hmin_lists{ 
-      font-size:10px; 
-      display:none;
-}
-.Audit-Media__container{ 
-      padding-bottom:10px; 
-}
-.calai-mission-committee__container, .Audit-Media__container{ 
-      padding-top:10px; 
-      padding-bottom:10px; 
-}
- hr{ 
-      display:none; 
- }
-}
-@media screen and (max-width:320px){ 
-      .CPYF__title,.kawhhran__title
-.praiseTeam__title,.auditors__title,
-.mediaTeam__title,.calai__title,
-.mission-committee__title,.building__title {
-  padding: 20px 0;
-}
+@media screen and (max-width: 320px) {
+  .CPYF__title,
+  .kawhhran__title .praiseTeam__title,
+  .auditors__title,
+  .mediaTeam__title,
+  .calai__title,
+  .mission-committee__title,
+  .building__title {
+    padding: 20px 0;
+  }
 }
