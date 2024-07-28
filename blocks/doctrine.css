@@ -77,9 +77,23 @@
   padding-bottom: 10px;
 }
 @media screen and (max-width: 500px) {
-  .doctrine__nicea_description {
-    padding-bottom: 5px; 
+  .doctrine__nicea_description,
+  .doctrine__apostle_description {
+    padding-bottom: 20px;
+    margin: 0;
   }
+  .doctrine__nicea_description-item:last-child,
+  .doctrine__apostle_description-item:last-child {
+    padding-bottom: 0;
+  }
+  .doctrine__title {
+    margin: 0;
+    font-weight: 400;
+  }
+  .doctrine {
+    padding-bottom: 10px;
+  }
+
   .doctrine__image {
     width: 60px;
     height: 60px;
