@@ -1,5 +1,8 @@
 
 @media screen and (max-width: 500px) {
+      .expand-btn{ 
+            display:block; 
+      }
   .cutoff-text{
     --max-lines: 11;
     --line-height: 1.4;
@@ -17,6 +20,11 @@
       width:100%; 
       bottom:0; 
       pointer-events:none; 
+      transition:all .5s ease-in-out; 
+      background:linear-gradient(to bottom, transparent, #5092b5); 
+}
+.cutoff-text:has(+ .expand-btn:not(:checked))::before{ 
+     
       background:linear-gradient(to bottom, transparent, white); 
 }
 
@@ -29,6 +37,7 @@
       border-radius:.25em; 
       cursor: pointer;
       margin-top:1rem; 
+
 }
 .expand-btn:hover{ 
       background-color:#ccc; 
