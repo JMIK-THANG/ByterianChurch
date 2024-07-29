@@ -15,7 +15,7 @@
 .nav__link {
   color: #fff;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 16px;
   letter-spacing: 2px;
   transition: 0.7s ease;
 }
@@ -28,8 +28,8 @@
   display: none;
 }
 .nav__logo {
-  width: 120px;
-  height: 120px;
+  width: 115px;
+  height: 115px;
   margin-top: -95px;
 }
 .hamburger {
