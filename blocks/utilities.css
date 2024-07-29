@@ -24,6 +24,7 @@
 
 /* Expand */
 .expand-btn {
+      display:inline-block; 
   appearance: none;
   border: 1px solid black;
   padding: 0.5em;
