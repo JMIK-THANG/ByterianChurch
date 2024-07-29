@@ -36,18 +36,6 @@ document.querySelectorAll(".nav__link").forEach((n) =>
 // modalImage.addEventListener("click", handlePreviewPicture(data));
 // Read more / Read less
 
-// $(".read-more").click(function () {
-//   className = '.bio[data-id="' + $(this).attr("data-id") + '"]';
-//   // console.log('the class name is', className);
-//   $(className).toggleClass("BOOM");
-//   $(className + " .read-more-fade").toggleClass("BOOM");
-
-//   if ($(this).text() == "Read More") {
-//     $(this).text("Read Less");
-//   } else {
-//     $(this).text("Read More");
-//   }
-// });
 
 //  Back to Top button
 let calcScrollValue = () => {
