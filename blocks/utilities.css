@@ -1,53 +1,45 @@
-
-@media screen and (max-width: 500px) {
-      .expand-btn{ 
-            display:block; 
-      }
-  .cutoff-text{
+@media screen and (max-width: 480px) {
+  .expand-btn {
+    display: block;
+  }
+  .cutoff-text {
     --max-lines: 11;
     --line-height: 1.4;
     max-height: calc(var(--max-lines) * 1em * var(--line-height));
     line-height: var(--line-height);
     overflow: hidden;
     position: relative;
-    
   }
 }
-.cutoff-text:has(+ .expand-btn:not(:checked))::before{ 
-      content:""; 
-      position:absolute; 
-      height:calc(2em * var(--line-height)); 
-      width:100%; 
-      bottom:0; 
-      pointer-events:none; 
-      transition:all .5s ease-in-out; 
-      background:linear-gradient(to bottom, transparent, #5092b5); 
+.cutoff-text:has(+ .expand-btn:not(:checked))::before {
+  content: "";
+  position: absolute;
+  height: calc(2em * var(--line-height));
+  width: 100%;
+  bottom: 0;
+  pointer-events: none;
+  transition: all 0.5s ease-in-out;
+  background: linear-gradient(to bottom, transparent, #5092b5);
 }
-.cutoff-text:has(+ .expand-btn:not(:checked))::before{ 
-     
-      background:linear-gradient(to bottom, transparent, white); 
-}
-
 
 /* Expand */
-.expand-btn{ 
-      appearance: none;
-      border:1px solid black; 
-      padding:.3em ;
-      border-radius:.25em; 
-      cursor: pointer;
-      margin-top:1rem; 
-
+.expand-btn {
+  appearance: none;
+  border: 1px solid black;
+  padding: 0.5em;
+  border-radius: 0.25em;
+  cursor: pointer;
+  margin-top: 1rem;
 }
-.expand-btn:hover{ 
-      background-color:#ccc; 
+.expand-btn:hover {
+  background-color: #ccc;
 }
-.expand-btn::before{ 
-      content:"Expand";
+.expand-btn::before {
+  content: "read more";
 }
-.expand-btn:checked::before{ 
-      content:"Collapse"; 
+.expand-btn:checked::before {
+  content: "read less";
 }
-.cutoff-text:has(+ .expand-btn:checked){ 
-      max-height:none;
+.cutoff-text:has(+ .expand-btn:checked) {
+  max-height: none;
 }
