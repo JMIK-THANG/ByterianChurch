@@ -21,6 +21,7 @@
 }
 .expand-btn{ 
   display:none;
+  appearance: none;
 }
 .about__content_title {
   color: #fff;
