@@ -7,21 +7,20 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.expand-btn {
+  display: none;
+}
 
 .about__content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background:#5092b5; 
+  background: #5092b5;
   color: black;
   height: 100%;
   margin: 0 auto;
   padding: 80px 0 150px;
-}
-.expand-btn{ 
-  display:none;
-  appearance: none;
 }
 .about__content_title {
   color: #fff;
