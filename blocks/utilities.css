@@ -23,7 +23,7 @@
   background: linear-gradient(to bottom, transparent, #5092b5); 
 }
 
-
+}
 /* Expand */
 .expand-btn {
   appearance: none;
@@ -42,4 +42,4 @@
 .cutoff-text:has(+ .expand-btn:checked) {
   max-height: none;
 }
-}
+
