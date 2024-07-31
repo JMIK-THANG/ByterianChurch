@@ -29,11 +29,11 @@
   display: block;
   appearance: none;
   color:blue; 
-  /* border: 1px solid black;
+   border: 1px solid black;
   padding: 0.5em;
   border-radius: 0.25em;
   cursor: pointer;
-  margin-top: 1rem; */
+  margin-top: 1rem;
 }
 .expand-btn::before {
   content: "read more";
