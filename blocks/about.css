@@ -7,10 +7,9 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.expand-btn {
-  display: none;
+.expand-btn{ 
+  display:none; 
 }
-
 .about__content {
   display: flex;
   flex-direction: column;
