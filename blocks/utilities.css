@@ -34,10 +34,10 @@
   margin-top: 1rem;
 }
 .expand-btn::before {
-  content: "read more";
+  content: "readmore";
 }
 .expand-btn:checked::before {
-  content: "read less";
+  content: "readless";
 }
 .cutoff-text:has(+ .expand-btn:checked) {
   max-height: none;
