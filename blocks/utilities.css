@@ -26,12 +26,10 @@
 
 /* Expand */
 .expand-btn {
-  display: block;
   appearance: none;
-  color:blue; 
    border: 1px solid black;
-  padding: 0.5em;
-  border-radius: 0.25em;
+   padding:13px 18px;
+  border-radius:10px;
   cursor: pointer;
   margin-top: 1rem;
 }
