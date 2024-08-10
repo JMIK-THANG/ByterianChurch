@@ -1,5 +1,5 @@
 .about__header {
-  height: 30vh;
+  height: 50vh;
   width: 100vw;
   background: url(../img/About\ Image\ 1.svg) no-repeat center;
   padding: 30px 70px 40px;
@@ -46,7 +46,6 @@
 @media screen and (max-width: 600px) {
   .about__header {
     background: #0f4d6b;
-    height: rem;
     width: 100%;
     margin: 0 auto;
   }
